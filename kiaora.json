@@ -1,0 +1,231 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "slate":         "#2E3440",
+    "slateLight":    "#3B4252",
+    "slateMid":      "#434C5E",
+    "slateSoft":     "#4C566A",
+    "cloud":         "#D8DEE9",
+    "mist":          "#CDD5E0",
+    "fog":           "#C4CDD9",
+    "snow":          "#ECEFF4",
+    "overcast":      "#E5E9F0",
+    "pounamu":       "#8FBCBB",
+    "glacial":       "#7BAFAE",
+    "clearSky":      "#88C0D0",
+    "duskyBlue":     "#81A1C1",
+    "fjord":         "#5E81AC",
+    "deepFjord":     "#6E8FAD",
+    "bush":          "#A3BE8C",
+    "pohutukawa":    "#BF616A",
+    "tussock":       "#EBCB8B",
+    "kowhai":        "#D08770",
+    "manuka":        "#B48EAD",
+    "borderLight":   "#B8C0CC",
+    "borderSubtle":  "#C4CDD9",
+    "mutedDark":     "#7B8794",
+    "mutedLight":    "#616E7C"
+  },
+  "theme": {
+    "primary": {
+      "dark": "glacial",
+      "light": "fjord"
+    },
+    "secondary": {
+      "dark": "duskyBlue",
+      "light": "duskyBlue"
+    },
+    "accent": {
+      "dark": "pounamu",
+      "light": "pounamu"
+    },
+    "error": {
+      "dark": "pohutukawa",
+      "light": "pohutukawa"
+    },
+    "warning": {
+      "dark": "kowhai",
+      "light": "kowhai"
+    },
+    "success": {
+      "dark": "bush",
+      "light": "bush"
+    },
+    "info": {
+      "dark": "clearSky",
+      "light": "fjord"
+    },
+    "text": {
+      "dark": "cloud",
+      "light": "slate"
+    },
+    "textMuted": {
+      "dark": "slateSoft",
+      "light": "mutedLight"
+    },
+    "background": {
+      "dark": "slate",
+      "light": "cloud"
+    },
+    "backgroundPanel": {
+      "dark": "slateLight",
+      "light": "mist"
+    },
+    "backgroundElement": {
+      "dark": "slateMid",
+      "light": "fog"
+    },
+    "border": {
+      "dark": "slateMid",
+      "light": "borderLight"
+    },
+    "borderActive": {
+      "dark": "pounamu",
+      "light": "pounamu"
+    },
+    "borderSubtle": {
+      "dark": "slateLight",
+      "light": "borderSubtle"
+    },
+    "diffAdded": {
+      "dark": "bush",
+      "light": "bush"
+    },
+    "diffRemoved": {
+      "dark": "pohutukawa",
+      "light": "pohutukawa"
+    },
+    "diffContext": {
+      "dark": "slateSoft",
+      "light": "mutedLight"
+    },
+    "diffHunkHeader": {
+      "dark": "slateSoft",
+      "light": "mutedLight"
+    },
+    "diffHighlightAdded": {
+      "dark": "bush",
+      "light": "bush"
+    },
+    "diffHighlightRemoved": {
+      "dark": "pohutukawa",
+      "light": "pohutukawa"
+    },
+    "diffAddedBg": {
+      "dark": "#3B4252",
+      "light": "#DBE7D3"
+    },
+    "diffRemovedBg": {
+      "dark": "#3B4252",
+      "light": "#E8D3D5"
+    },
+    "diffContextBg": {
+      "dark": "slateLight",
+      "light": "overcast"
+    },
+    "diffLineNumber": {
+      "dark": "slateMid",
+      "light": "borderLight"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#3B4252",
+      "light": "#DBE7D3"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#3B4252",
+      "light": "#E8D3D5"
+    },
+    "markdownText": {
+      "dark": "cloud",
+      "light": "slate"
+    },
+    "markdownHeading": {
+      "dark": "clearSky",
+      "light": "fjord"
+    },
+    "markdownLink": {
+      "dark": "duskyBlue",
+      "light": "duskyBlue"
+    },
+    "markdownLinkText": {
+      "dark": "pounamu",
+      "light": "glacial"
+    },
+    "markdownCode": {
+      "dark": "bush",
+      "light": "bush"
+    },
+    "markdownBlockQuote": {
+      "dark": "slateSoft",
+      "light": "mutedLight"
+    },
+    "markdownEmph": {
+      "dark": "kowhai",
+      "light": "kowhai"
+    },
+    "markdownStrong": {
+      "dark": "tussock",
+      "light": "tussock"
+    },
+    "markdownHorizontalRule": {
+      "dark": "slateSoft",
+      "light": "borderLight"
+    },
+    "markdownListItem": {
+      "dark": "clearSky",
+      "light": "fjord"
+    },
+    "markdownListEnumeration": {
+      "dark": "pounamu",
+      "light": "glacial"
+    },
+    "markdownImage": {
+      "dark": "duskyBlue",
+      "light": "duskyBlue"
+    },
+    "markdownImageText": {
+      "dark": "pounamu",
+      "light": "glacial"
+    },
+    "markdownCodeBlock": {
+      "dark": "cloud",
+      "light": "slate"
+    },
+    "syntaxComment": {
+      "dark": "slateSoft",
+      "light": "mutedLight"
+    },
+    "syntaxKeyword": {
+      "dark": "duskyBlue",
+      "light": "duskyBlue"
+    },
+    "syntaxFunction": {
+      "dark": "clearSky",
+      "light": "deepFjord"
+    },
+    "syntaxVariable": {
+      "dark": "pounamu",
+      "light": "glacial"
+    },
+    "syntaxString": {
+      "dark": "bush",
+      "light": "bush"
+    },
+    "syntaxNumber": {
+      "dark": "manuka",
+      "light": "manuka"
+    },
+    "syntaxType": {
+      "dark": "pounamu",
+      "light": "glacial"
+    },
+    "syntaxOperator": {
+      "dark": "duskyBlue",
+      "light": "duskyBlue"
+    },
+    "syntaxPunctuation": {
+      "dark": "cloud",
+      "light": "slate"
+    }
+  }
+}
