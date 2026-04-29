@@ -10,6 +10,8 @@
     "fog":           "#C4CDD9",
     "snow":          "#ECEFF4",
     "overcast":      "#E5E9F0",
+    "frost":         "#F5F7FA",
+    "daylight":      "#FAFBFC",
     "pounamu":       "#8FBCBB",
     "glacial":       "#7BAFAE",
     "clearSky":      "#88C0D0",
@@ -65,15 +67,15 @@
     },
     "background": {
       "dark": "slate",
-      "light": "cloud"
+      "light": "daylight"
     },
     "backgroundPanel": {
       "dark": "slateLight",
-      "light": "mist"
+      "light": "frost"
     },
     "backgroundElement": {
       "dark": "slateMid",
-      "light": "fog"
+      "light": "snow"
     },
     "border": {
       "dark": "slateMid",
@@ -121,7 +123,7 @@
     },
     "diffContextBg": {
       "dark": "slateLight",
-      "light": "overcast"
+      "light": "frost"
     },
     "diffLineNumber": {
       "dark": "slateMid",
