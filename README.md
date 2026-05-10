@@ -103,28 +103,50 @@ These colours are used in both light and dark modes.
 
 ## Installation
 
-### Option 1 -- User-wide (recommended)
+### Option 1 — User-wide (recommended)
 
-Copy the theme file into your OpenCode config directory so it is available in every project.
+Install the theme into your OpenCode config directory so it's available in every project.
 
 ```bash
-# Create the themes directory if it doesn't exist
 mkdir -p ~/.config/opencode/themes
-
-# Copy the theme file
-cp kiaora.json ~/.config/opencode/themes/kiaora.json
+curl -fsSL https://raw.githubusercontent.com/jtbnz/kiaora-theme/main/kiaora.json \
+  -o ~/.config/opencode/themes/kiaora.json
 ```
 
-### Option 2 -- Per-project
-
-Place the theme file inside your project so it only applies there.
+Or with `wget`:
 
 ```bash
-# From your project root
-mkdir -p .opencode/themes
+mkdir -p ~/.config/opencode/themes
+wget -qO ~/.config/opencode/themes/kiaora.json \
+  https://raw.githubusercontent.com/jtbnz/kiaora-theme/main/kiaora.json
+```
 
-# Copy the theme file
-cp /path/to/kiaora.json .opencode/themes/kiaora.json
+### Option 2 — Per-project
+
+Install into a single project so it only applies there.
+
+```bash
+mkdir -p .opencode/themes
+curl -fsSL https://raw.githubusercontent.com/jtbnz/kiaora-theme/main/kiaora.json \
+  -o .opencode/themes/kiaora.json
+```
+
+### Option 3 — Windows (PowerShell)
+
+```powershell
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\themes" | Out-Null
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/jtbnz/kiaora-theme/main/kiaora.json" `
+  -OutFile "$env:USERPROFILE\.config\opencode\themes\kiaora.json"
+```
+
+### Updating
+
+Re-run the command — it'll overwrite the existing file with the latest version.
+
+### Uninstalling
+
+```bash
+rm ~/.config/opencode/themes/kiaora.json
 ```
 
 ### Activate the theme
